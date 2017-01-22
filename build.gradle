@@ -6,8 +6,9 @@ dependencies {
 
     compile 'org.slf4j:slf4j-api:1.7.21'
     compile 'ch.qos.logback:logback-classic:1.1.7'
+    compile 'org.projectlombok:lombok:1.16.12'
 
-    compile group: 'am.ik.aws', name: 'aws-apa', version: '0.9.5'
+    compile 'am.ik.aws:aws-apa:0.9.5'
 
     testCompile 'junit:junit:4.12'
 }
